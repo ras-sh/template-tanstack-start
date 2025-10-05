@@ -1,1 +1,1 @@
-# template-tanstack-start
+# @ras-sh/template-tanstack-start

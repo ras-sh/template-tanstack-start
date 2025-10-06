@@ -62,7 +62,7 @@ This template is configured with ras.sh defaults. To customize for your own proj
 
 | Command | Description |
 |---------|-------------|
-| `pnpm dev` | Start development server (port 3000) |
+| `pnpm dev` | Start development server (port 5173) |
 | `pnpm build` | Build for production |
 | `pnpm preview` | Preview production build |
 | `pnpm deploy` | Deploy to Cloudflare Workers |

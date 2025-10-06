@@ -1,6 +1,6 @@
 # @ras-sh/template-tanstack-start
 
-A production-ready template for quickly scaffolding TanStack Start projects with best practices and modern tooling.
+🚀 A production-ready template for quickly scaffolding TanStack Start projects with best practices and modern tooling.
 
 ## Features
 
@@ -20,6 +20,43 @@ A production-ready template for quickly scaffolding TanStack Start projects with
 pnpm install
 pnpm dev
 ```
+
+## Customization
+
+This template is configured with ras.sh defaults. To customize for your own project:
+
+### Required Changes
+
+1. **package.json** - Update project metadata:
+   - `name` - Your package name
+   - `description` - Your app description
+   - `homepage` - Your website URL
+   - `bugs.url` - Your repository issues URL
+   - `bugs.email` - Your support email
+   - `repository.url` - Your repository URL
+   - `author` - Your name, email, and website
+
+2. **src/lib/seo.ts:18-19** - Update social media handles:
+   - `twitter:creator` - Your Twitter handle
+   - `twitter:site` - Your site's Twitter handle
+
+3. **src/routes/__root.tsx:20-23** - Update default meta tags:
+   - `title` - Your site title
+   - `description` - Your site description
+
+4. **public/site.webmanifest:2-3** - Update PWA manifest:
+   - `name` - Your app name
+   - `short_name` - Your app short name
+
+5. **wrangler.jsonc:3** - Update Cloudflare Workers name:
+   - `name` - Your worker name
+
+6. **src/routes/index.tsx** - Replace with your landing page content
+
+### Optional Changes
+
+- **public/** - Replace favicon and icons with your own branding
+- **LICENSE** - Update license holder if needed
 
 ## Scripts
 

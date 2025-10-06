@@ -29,8 +29,8 @@ function Home() {
 
           <div className="space-y-6 text-lg text-zinc-300 leading-relaxed">
             <p>
-              A production-ready template for building full-stack applications
-              with{" "}
+              🚀 A production-ready template for building full-stack
+              applications with{" "}
               <a
                 className="underline transition-colors hover:text-zinc-100"
                 href="https://tanstack.com/start"

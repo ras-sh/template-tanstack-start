@@ -1,14 +1,11 @@
 {
-  "extends": "@ras-sh/typescript-config/react-library.json",
-  "include": ["**/*.ts", "**/*.tsx"],
+  "extends": "@ras-sh/typescript-config/tanstack-start.json",
   "compilerOptions": {
-    "jsx": "react-jsx",
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
     "baseUrl": ".",
-    "noEmit": true,
     "paths": {
       "~/*": ["./src/*"]
     }
-  }
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", "dist"]
 }
